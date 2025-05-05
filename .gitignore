@@ -1,0 +1,53 @@
+# Node modules
+node_modules
+node_modules/
+
+# Bun lockfile (if using Bun)
+bun.lockb
+
+# npm lockfile (optional, keep only one of these depending on the package manager)
+package-lock.json
+
+# Build outputs
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Env files
+.env
+.env.*.local
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Compiled output (if accidentally committed)
+*.js
+*.js.map
+
+# Testing
+coverage/
+*.lcov
+
+# Misc
+*.swp
+*.tmp
