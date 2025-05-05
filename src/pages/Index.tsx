@@ -20,7 +20,7 @@ const Index = () => {
 
   return (
     <ThemeProvider defaultTheme="dark">
-      <div className="min-h-screen bg-background text-foreground">
+      <div className="min-h-screen bg-background text-foreground p-8">
         <Header />
         <main className="overflow-hidden ">
           <HeroSection />
