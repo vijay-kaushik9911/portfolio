@@ -22,7 +22,7 @@ const Index = () => {
     <ThemeProvider defaultTheme="dark">
       <div className="min-h-screen bg-background text-foreground">
         <Header />
-        <main className="overflow-hidden m-8">
+        <main className="overflow-hidden ">
           <HeroSection />
           <AboutSection />
           <SkillsSection />
@@ -30,7 +30,7 @@ const Index = () => {
           <PublicationsSection />
           <EducationSection />
           <ExperienceSection />
-          <CertificationsSection />
+          <CertificationsSection/>
           <ContactSection />
         </main>
         <Footer />
